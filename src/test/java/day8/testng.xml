@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="TEST">
+        <classes>
+            <class name="day8.CreateUser"/>
+            <class name="day8.GetUser"/>
+            <class name="day8.UpdateUser"/>
+            <class name="day8.DeleteUser"/>
+        </classes>
+    </test>
+</suite>
